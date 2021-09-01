@@ -1,3 +1,6 @@
+//constant update alert
+
+alert("This Website is Constantly updating, give me constructive criticism Below")
 // smooth scrolling
 $('#navbar a, .btn').on('click', function(event) {
   if(this.hash !== '') {
