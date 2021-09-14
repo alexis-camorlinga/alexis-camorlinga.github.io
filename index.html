@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-
-    <meta name="viewport" content="device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Alexis Camorlinga Portfilio</title>
     <link rel="stylesheet" type="text/css" href="Portfolio/style.css" />
     <script
       src="https://kit.fontawesome.com/9ebb753153.js"
       crossorigin="anonymous"
     ></script>
+    
   </head>
   <body id="home">
+    
+    <div id="progressbar"></div>
     <!-- NaveBar -->
 
     <nav id="navbar">
@@ -77,7 +79,7 @@
           </div>
 
           <div class="about-image">
-            <img src="/img/mewhitebrick.jpg" alt="Picture of me"/>
+            <img src="/img/mewhitebrick.png" alt="Picture of me"/>
           </div>
         </div>
       </div>
@@ -142,23 +144,23 @@
         <div class="container">
     <br><br>
 
-          <h2>My Other <span class="text-primary">Projects</span> (In Development)</h2> 
+          <h2>My Other <span class="text-primary">Projects</span></h2> 
           <div class="boxes">
-            <div class="box" onclick=window.location.href="/ecommerce/index.html">
+            <div class="box" onclick=window.location.href="/ecommerce/index.html" data-hover=" UPDATE 9/13/2021: CURRENTLY WORKING ON THIS PAGE, REFINING MY REACT SKILLS. EVENTUALLY YOU WILL BE ABLE TO CLICK HERE AND WILL SEND YOU DIRECTLY TO PAGE.">
               <img src="/img/ecommerce.png" alt="ecommerce">
-              <p> <b>ECOMMERCE:</b> (Currently Working on) Functional eCommerce website using HTML, CSS, React, javascript, and API's. You can add items to a cart or remove them, make payments and receive both the seller and buyer receive a receipt. Fully reactive and immersive experience. UPDATE 9/13/2021: Currently refining my react skills.</p>
+              <p> <b>ECOMMERCE:</b> Functional eCommerce website using HTML, CSS, React, javascript, and API's. You can add items to a cart or remove them, make payments and receive both the seller and buyer receive a receipt. Fully reactive and immersive experience. </p>
             </div>
-            <div class="box" onclick=window.location.href="/weather/index.html">
+            <div class="box" data-hover="  UPDATE 9/13/2021: TBA"> <!--put this inside div tag onclick=window.location.href="/weather/index.html" -->
               <img src="/img/weather.jpg" alt="weather app">
-              <p><b>WEATHER: </b> (NOT STARTED) A weather app that asks you for your location and tells you the weather based on your location and can add multiple cities, immersive interactive and dark mode implementations. </p>
+              <p><b>WEATHER: </b> A weather app that asks you for your location and tells you the weather based on your location and can add multiple cities, immersive interactive and dark mode implementations. </p>
             </div>
-            <div class="box" onclick=window.location.href="/social/index.html">
+            <div class="box" data-hover=" UPDATE 9/13/2021: TBA"> <!--put this inside div tag onclick=window.location.href="/social/index.html" -->
               <img src="/img/socialmedia.png" alt="social media">
-              <p><b>SOCIAL MEDIA: </b> (NOT STARTED) A twitter mock up. </p>
+              <p><b>SOCIAL MEDIA: </b>A twitter mock up. </p>
             </div>
-            <div class="box" onclick=window.location.href="/game/index.html">
+            <div class="box" data-hover=" UPDATE 9/13/2021: TBA"> <!-- put this inside div tag onclick=window.location.href="/game/index.html"-->
               <img src="/img/game.png" alt="game">
-              <p><b>GAME: </b>(NOT STARTED) A simple yet complicated game of chess. </p>
+              <p><b>GAME: </b>A simple yet complicated game of chess. </p>
             </div>
           </div>
         </div>
@@ -203,6 +205,8 @@
       </div>
     </section>
 
+    
+
     <!-- footer -->
 
     <footer class="bg-dark">
@@ -215,5 +219,7 @@
 
     <!--local js file -->
     <script src="/Portfolio/main.js"></script>
+
+    
   </body>
 </html>
