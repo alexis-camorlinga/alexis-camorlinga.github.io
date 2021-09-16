@@ -1,6 +1,10 @@
 //constant update alert
 
-// alert("This website is constantly updating, give me constructive criticism below.")
+  // alert("This website is constantly updating, give me constructive criticism below.")
+
+
+
+
 // smooth scrolling
 $('#navbar a, .btn').on('click', function(event) {
   if(this.hash !== '') {
@@ -17,12 +21,12 @@ $('#navbar a, .btn').on('click', function(event) {
   }
 });
 
-//scroll bar 
-$(window).scroll(function(){
-  var scroll = $(window).scrollTop(),
-  dh = $(document).height(),
-  wh = $(window).height();
-  scrollPercent = (scroll / (dh-wh)) *100;
-  $('#progressbar').css('height', scrollPercent + '%')
-})
+//scroll bar progress
+// $(window).scroll(function(){
+//   var scroll = $(window).scrollTop(),
+//   dh = $(document).height(),
+//   wh = $(window).height();
+//   scrollPercent = (scroll / (dh-wh)) *100;
+//   $('#progressbar').css('height', scrollPercent + '%')
+// })
 

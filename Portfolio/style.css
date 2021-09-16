@@ -129,8 +129,12 @@ body {
   padding: 1rem 10rem;
   transition: color 0.3s, background 0.3s;
 }
+.about-content .btn{
+  padding: 1rem 12.6rem;
+  transition: color 0.3s, background 0.3s;
+}
 
-.showcase-content .btn:hover,  .showcase-thanks .btn:hover {
+.showcase-content .btn:hover,  .showcase-thanks .btn:hover,.about-content .btn:hover {
   background-color: #3693ff;
   color: #fff;
 }
@@ -186,6 +190,8 @@ body {
   border-radius: 50%;
   margin-top: 20px;
 }
+
+
 /* Section :skills */
 
 #skills{
@@ -346,7 +352,7 @@ font-size: 1.1rem;
   font-family: Arial, sans-serif;
 }
 
-#contact .contact-btn {
+#contact .contact-btn  {
   width: 80%;
   margin-left: 10%;
   display: inline-block;
